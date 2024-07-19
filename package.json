@@ -12,11 +12,14 @@
     "generate-client": "npx openapi-typescript http://localhost:3000/openapi.json -o ./app/schema.d.ts"
   },
   "dependencies": {
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@nanostores/react": "github:ai/react",
     "@radix-ui/react-slot": "^1.1.0",
     "@tanstack/react-query": "^5.51.4",
     "@types/node": "20.2.4",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "ai": "^3.2.30",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
